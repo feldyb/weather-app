@@ -1,5 +1,23 @@
-<div id="weather"></div>
-<div id="error" style="color: red;"></div>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aplicație Meteo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vremea Azi</h1>
 
-<script src="config.js"></script>
-<script src="script.js"></script>
+    <input type="text" id="cityInput" placeholder="Introdu un oraș">
+    <button onclick="searchWeather()">Caută</button>
+
+    <div id="weather" class="weather-box"></div>
+    <div id="error" class="error-box"></div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
