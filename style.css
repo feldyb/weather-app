@@ -1,11 +1,37 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #eef;
-  text-align: center;
-  padding: 20px;
+  background-color: #e8f0fe;
+  margin: 0;
+  padding: 2rem;
 }
-.hidden { display: none; }
-.container { max-width: 500px; margin: auto; }
-input { padding: 8px; width: 70%; }
-button { padding: 8px; margin: 5px; }
-.extra-info p { margin: 4px 0; }
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.weather-box {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.error-box {
+  color: red;
+  margin-top: 1rem;
+}
