@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef;
+  text-align: center;
+  padding: 20px;
+}
+.hidden { display: none; }
+.container { max-width: 500px; margin: auto; }
+input { padding: 8px; width: 70%; }
+button { padding: 8px; margin: 5px; }
+.extra-info p { margin: 4px 0; }
